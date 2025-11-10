@@ -1,0 +1,32 @@
+[
+{
+      "enabled": true,
+      "enabledWithFunnel": true,
+      "method": "test",
+      "group": "LAYER 4",
+      "defaultPort": 80,
+      "defaultTime": 60,
+      "minTime": 10,
+      "maxTime": 300,
+      "slots": 60,
+      "permission": ["user"],
+      "API": [""]
+},
+{
+      "enabled": true,
+      "enabledWithFunnel": true,
+      "method": "test2",
+      "group": "LAYER 4",
+      "defaultPort": 80,
+      "defaultTime": 60,
+      "minTime": 10,
+      "maxTime": 300,
+      "slots": 60,
+      "permission": ["user", "vip", "raw", "aura", "vortex"],
+      "API": [""]
+}
+
+
+
+
+  ]

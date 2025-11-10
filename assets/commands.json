@@ -1,0 +1,22 @@
+{
+  "commands": [
+    {
+      "name": "addons",
+      "page": "addons",
+      "aliases": ["add","a"],
+      "permissions": ["user"]
+    },
+    {
+      "name": "vortex",
+      "page": "vortex",
+      "aliases": ["v"],
+      "permissions": ["vortex"]
+    },
+    {
+      "name": "aura",
+      "page": "aura",
+      "aliases": [],
+      "permissions": ["aura"]
+    }
+  ]
+}
