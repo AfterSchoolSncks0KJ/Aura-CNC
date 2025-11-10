@@ -1,0 +1,17 @@
+<<$clear>>[8;26;80t
+
+<<$sleep(10)>>ATACK DETAILS
+[38;5;15m attack   <<$attack.Target>>
+[38;5;15m METHOD   <<$attack.Method>>[38;2;224;138;220m
+[38;5;15m PORT     <<$attack.Port>>
+[38;5;15m TIME     <<$attack.Time>>
+
+
+
+[38;5;15m ASN      <<$attack.ASN>>
+[38;5;15m ORG      <<$attack.ORG>>
+[38;5;15m Country  <<$attack.Country>>|<<$attack.CountryCode>>
+[38;5;15m SEND     <<$attack.Time>>
+[38;5;15m SEND BY  <<$user.Username>>
+[38;5;15m VIP      <<$user.Vip>>
+[38;5;15m YOUR TOTAL NETWORK ATTACKS <<$user.Total_attacks>>

@@ -1,0 +1,22 @@
+<<$clear>>[8;32;79t
+
+            [97mUsername               =     [97m<<$user.Username>>
+            [97mConcurrents            =     [97m<<$user.Concurrents>>
+            [97mTimelimit              =     [97m<<$user.Maxtime>> seconds
+            [97mCooldown               =     [97m<<$user.Cooldown>> seconds
+            [97mExpiry                 =     [97m<<$user.Expiry>> days left
+            [97mTotal Attack Count     =     [97m<<$user.Total_attacks>> attacks
+            [97mVIP Access             =     [97m<<$user.Vip>>
+            [97mPRIVATE Access         =     [97m<<$user.Private>>
+            [97mVORTEX Access          =     [97m<<$user.Vortex>>
+            [97mAURA Access            =     [97m<<$user.Aura>>
+            [97mRAW Access             =     [97m<<$user.Raw>>
+            [97mAdmin Status           =     [97m<<$user.Admin>>
+            [97mReseller Status        =     [97m<<$user.Reseller>>
+            [97mBypass PowerSaving     =     [97m<<$user.Power_saving_bypass>>
+            [97mBypass SpamProtection  =     [97m<<$user.Spam_bypass>>
+            [97mBypass Blacklist       =     [97m<<$user.Blacklist_bypass>>
+            [97mUser Created By        =     [97m<<$user.Created_by>>
+            [97mMy Client              =     [97m<<$user.SSH_Client>>
+            [97mConnection Through     =     [97mcat2.auranetwork.cc:10000
+

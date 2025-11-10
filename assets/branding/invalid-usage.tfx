@@ -1,0 +1,3 @@
+[38;5;196mInvalid usage![7;0;0;0m
+Attack Syntax[38;5;13m: <[38;5;15mmethod[38;5;13m> <[38;5;15mtarget[38;5;13m> <[38;5;15mport[38;5;13m> <[38;5;15mtime[38;5;13m>[7;0;0;0m
+Example: dns 70.70.70.76 53 60
