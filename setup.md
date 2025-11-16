@@ -5,7 +5,7 @@ OS: Ubuntu 24.04
 # firs step put all the files on the server 
 
 
-Run theas 4 commands line by line:
+# Run theas 4 commands line by line:
 
 sudo apt update && apt upgrade -y
 sudo apt install mysql-server -y
@@ -14,7 +14,7 @@ mysql_secure_installation
 
 
 
-Run theas 3 commands line by line:
+# Run theas 3 commands line by line:
 
 sudo mysql
 ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'root#1234567890'; 
@@ -22,7 +22,7 @@ exit
 
 
 
-#Run These 5 Commands below:
+# Run These 5 Commands below:
 
 mysql -u root -p root#1234567890
 CREATE DATABASE `AURA1`;
@@ -34,8 +34,8 @@ exit
 
 
 
-Extra Help :
-#Run These Commands Below
+# Extra Help :
+Run These Commands Below:
 
 apt install screen
 
@@ -56,5 +56,6 @@ Make Sure To Look at Your Default Login... It Will Be in (default_user.txt) file
 
 
 ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
+
 
    	
