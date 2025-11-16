@@ -29,7 +29,7 @@ exit
 
 # Run These 5 Commands below:
 
-mysql -u root -p root#1234567890
+mysql -u root -proot#1234567890
 CREATE DATABASE `AURA1`;
 CREATE USER 'AURACNC1'@'localhost' IDENTIFIED BY 'AURACNCSECUREPASS';
 GRANT ALL PRIVILEGES ON * . * TO 'AURACNC1'@'localhost';
