@@ -1,14 +1,16 @@
 # Aura-CNC
 A CNC made by me
 
-Setupguide
-
+# Setupguide
+requirements:
+A VPS
 OS: Ubuntu 24.04
+A brain!
 
 # firs step put all the files on the server 
 
 
-Run theas 4 commands line by line:
+# Run theas 4 commands line by line:
 
 sudo apt update && apt upgrade -y
 sudo apt install mysql-server -y
@@ -37,14 +39,13 @@ exit
 
 
 
-Extra Help :
-#Run These Commands Below
+# Extra Help :
+Run These Commands Below
 
 apt install screen
 
 chmod 777 *
 sudo screen ./main
-
 
 Connect Using "SSH"
 
