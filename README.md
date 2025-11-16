@@ -17,7 +17,7 @@ mysql_secure_installation
 
 
 
-Run theas 3 commands line by line:
+# Run theas 3 commands line by line:
 
 sudo mysql
 ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'root#1234567890'; 
@@ -25,7 +25,7 @@ exit
 
 
 
-#Run These 5 Commands below:
+# Run These 5 Commands below:
 
 mysql -u root -p root#1234567890
 CREATE DATABASE `AURA1`;
